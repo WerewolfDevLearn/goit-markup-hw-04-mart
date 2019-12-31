@@ -1,0 +1,41 @@
+:root {
+  --text-color: #555252;
+  --accent-color: #1abc9c;
+  --text-size: 14px;
+  --signature-size: 18px;
+}
+.header {
+  min-height: 170px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.products {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+.site-nav .link {
+  padding: 20px;
+}
+.logo {
+  display: inline-block;
+}
+.link {
+  text-decoration: none;
+}
+.products a {
+  display: flex;
+}
