@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <title>goit-markup-hw-04-mart</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CRoboto:400,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header container">
-      <nav class="flex">
-        <a href="#"><img src="./images/Logo.png" alt="Logo" class="logo"/></a>
+    <header class="header">
+      <nav class="container flex">
+        <a href="#" class="logo"><img src="./images/Logo.png" alt="Logo"/></a>
         <ul class="site-nav">
           <li><a href="/" class="link">Home</a></li>
           <li><a href="" class="link">About us</a></li>
@@ -23,49 +26,106 @@
     </header>
     <main>
       <section class="container">
-        <h2 class="heading">Featured products</h2>
-        <ul class="container products ">
-          <li>
-            <a href="">
-              <img src="./images/products/prdct01.png" alt="shoes" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct02.png" alt="belt" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct03.png" alt="hat" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct04.png" alt="bag" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct06.png" alt="bag" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct07.png" alt="belt" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct09.png" alt="shoes" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/products/prdct10.png" alt="googles" />
-            </a>
-          </li>
-        </ul>
+        <section class="products">
+          <h2 class="section-heading container">Featured products</h2>
+          <ul class="list-of-products">
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct01.png" alt="shoes" width="255px" />
+                <h3>Blue Tshirt</h3>
+                <p>$26</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct02.png" alt="belt" width="255px" />
+                <h3>WOMAN shirt</h3>
+                <p>$31</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct03.png" alt="hat" width="255px" />
+                <h3>YELLOW Tshirt</h3>
+                <p>$21</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct04.png" alt="bag" width="255px" />
+                <h3>Cool lingerie</h3>
+                <p>$56</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct06.png" alt="bag" width="255px" />
+                <h3>Blue Tshirt</h3>
+                <p>$26</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct07.png" alt="belt" width="255px" />
+                <h3>WOMAN shirt</h3>
+                <p>$31</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct09.png" alt="shoes" width="255px" />
+                <h3>YELLOW Tshirt</h3>
+                <p>$21</p>
+              </a>
+            </li>
+            <li class="product">
+              <a href="#" class="product-link">
+                <img src="./images/products/prdct10.png" alt="googles" width="255px" />
+                <h3>Cool lingerie</h3>
+                <p>$56</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="News">
+          <h2>Lastest News</h2>
+          <ul class="list of articles">
+            <li class="articles">
+              <img src="./images/blog/blog01.png" alt="laptop with map" width="350px" />
+              <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, cumque?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit necessitatibus error
+                repellat quidem ducimus? Numquam, eius dicta. Delectus ex fuga aliquam quo
+                dignissimos, obcaecati atque mollitia, cumque quia deserunt corrupti.
+              </p>
+              <button>Read More</button>
+            </li>
+            <li class="articles">
+              <img
+                src="./images/blog/blog02.png"
+                alt="two girls are reading something "
+                width="347px"
+              />
+              <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, cumque?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit necessitatibus error
+                repellat quidem ducimus? Numquam, eius dicta. Delectus ex fuga aliquam quo
+                dignissimos, obcaecati atque mollitia, cumque quia deserunt corrupti.
+              </p>
+              <button>Read More</button>
+            </li>
+            <li class="articles">
+              <img src="./images/blog/blog03.png" alt="Buss passing by" width="347px" />
+              <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, cumque?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit necessitatibus error
+                repellat quidem ducimus? Numquam, eius dicta. Delectus ex fuga aliquam quo
+                dignissimos, obcaecati atque mollitia, cumque quia deserunt corrupti.
+              </p>
+              <button>Read More</button>
+            </li>
+          </ul>
+        </section>
       </section>
     </main>
   </body>
