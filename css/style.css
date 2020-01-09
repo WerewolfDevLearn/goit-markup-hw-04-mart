@@ -41,6 +41,7 @@ html {
 }
 /* Header */
 .logo{
+  display: block;
   font-family: var(--signature-font);
   font-size: var(--logo-font-size);
   color: var(--heading-text-color);
